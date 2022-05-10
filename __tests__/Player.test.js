@@ -24,7 +24,7 @@ test("gets player's health value", () => {
     const player = new Player('Dave');
 
     expect(player.getHealth()).toEqual(expect.stringContaining(player.health.toString()));
-})
+});
 
 test("gets player's stats as an object", () => {
     const player = new Player('Dave');
